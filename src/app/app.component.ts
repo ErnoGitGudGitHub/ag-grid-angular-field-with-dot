@@ -19,7 +19,6 @@ export class AppComponent  {
         { person: 'FirstPerson', address: {country:'FirstCountry', city:'FirstCity' } },
         { person: 'SecondPerson', address: {country:'SecondCountry', city:''} },
         { person: '', address: {country:'ThirdCountry', city:'ThirdCity' } },
-        { person: 'FourthPerson', address: {country:'FourthCountry', city:'FourtCity' } },
     ];
 
 }
