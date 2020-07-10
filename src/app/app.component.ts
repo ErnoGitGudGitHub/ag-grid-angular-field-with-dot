@@ -8,11 +8,11 @@ import { Component } from '@angular/core';
 export class AppComponent  {
 
     columnDefs = [
-        {field: 'person' },
-        {headerName:'Typeof Person',field:'person', valueFormatter:params=>typeof params.value},
-        {field: 'address.country' },
-        {field: 'address.city'},
-        {headerName:'Typeof City',field:'address.city', valueFormatter:params=>typeof params.value}
+        {headerName:'person', field: 'person' },
+        {headerName:'Typeof person',field:'person', valueFormatter:params=>typeof params.value},
+        {headerName:'address.city', field: 'address.city'},
+        {headerName:'Typeof address.city',field:'address.city', valueFormatter:params=>typeof params.value},
+        {headerName:'Address.city.toString()', field:'address.city', valueFormatter:params=>''+params.value}
     ];
 
     rowData = [
